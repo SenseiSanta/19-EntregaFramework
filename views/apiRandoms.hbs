@@ -1,0 +1,10 @@
+<div class="">
+    <h3 style="color:rgba(94, 196, 20, 0.778);" > Proceso en 2do plano </h3>
+    {{#if msg}}
+        {{#each msg}}
+            <p> Key: {{@key}} Value = {{this}} </p>
+        {{/each}}
+    {{else}}
+        <h4> El proceso ha finalizado de manera indebida </h4>
+    {{/if}}
+</div>

@@ -1,0 +1,14 @@
+<div class="container mt-3">
+    {{> welcome}}
+    {{> userData}}
+    <hr>
+    {{#if admin}}
+        {{> formulario}}
+        <hr>
+        {{> historico}}
+        <hr>
+        {{> chat}}
+    {{else}}
+        {{> shopping}}
+    {{/if}}
+</div>

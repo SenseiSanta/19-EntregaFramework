@@ -1,0 +1,473 @@
+[2022-11-14T20:34:12.476] [ERROR] default - 14/11/2022: Error en el servidor: Error: listen EADDRINUSE: address already in use :::8080
+[2022-11-14T20:34:39.432] [ERROR] default - 14/11/2022: Error en el servidor -> Error: listen EADDRINUSE: address already in use :::8080
+[2022-12-12T16:34:05.959] [ERROR] default - Error: Ha ocurrido un problema al obtener los productos
+    at getProducts (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/PreEntregas/3raPreentrega/src/services/inicial.service.js:24:15)
+    at getLoginInfo (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/PreEntregas/3raPreentrega/src/controllers/initial.controllers.js:14:32)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2022-12-12T16:52:06.454] [ERROR] default - ReferenceError: res is not defined
+    at loginPage (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/PreEntregas/3raPreentrega/src/controllers/initial.controllers.js:25:9)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\PreEntregas\3raPreentrega\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\PreEntregas\3raPreentrega\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\PreEntregas\3raPreentrega\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\PreEntregas\3raPreentrega\node_modules\express\lib\router\layer.js:95:5)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\PreEntregas\3raPreentrega\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\PreEntregas\3raPreentrega\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\PreEntregas\3raPreentrega\node_modules\express\lib\router\index.js:280:10)
+    at strategy.pass (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\PreEntregas\3raPreentrega\node_modules\passport\lib\middleware\authenticate.js:346:9)
+    at SessionStrategy.authenticate (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\PreEntregas\3raPreentrega\node_modules\passport\lib\strategies\session.js:75:10)
+[2022-12-12T20:27:37.434] [ERROR] default - ReferenceError: hashPassGenerator is not defined
+    at registerCredentials (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/15-EntregaCapas/src/controllers/initial.controllers.js:62:19)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\15-EntregaCapas\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\15-EntregaCapas\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\15-EntregaCapas\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\15-EntregaCapas\node_modules\express\lib\router\layer.js:95:5)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\15-EntregaCapas\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\15-EntregaCapas\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\15-EntregaCapas\node_modules\express\lib\router\index.js:280:10)
+    at strategy.pass (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\15-EntregaCapas\node_modules\passport\lib\middleware\authenticate.js:346:9)
+    at SessionStrategy.authenticate (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\15-EntregaCapas\node_modules\passport\lib\strategies\session.js:75:10)
+[2023-01-04T18:14:48.993] [ERROR] default - Error: Ha ocurrido un problema al obtener el usuario especificado
+    at getUserById (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/16-EntregaDAODTO/src/services/inicial.service.js:40:15)
+    at async registerCredentials (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/16-EntregaDAODTO/src/controllers/initial.controllers.js:130:24)
+[2023-01-10T21:33:07.541] [ERROR] default - Error: Ha ocurrido un error al obtener los datos del objeto solicitado con ID 63bdf35b717ce9c08e54733
+    at getDataID (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/services/productos.service.js:21:15)
+    at async getProductByID (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:22:20)
+[2023-01-10T21:34:12.196] [ERROR] default - Error: Ha ocurrido un error al obtener los datos del objeto solicitado con ID 63bdf35b717ce9c08e54733
+    at getDataID (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/services/productos.service.js:21:15)
+    at async getProductByID (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:22:20)
+[2023-01-10T21:50:25.108] [ERROR] default - El id ingresado no coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-10T21:53:55.880] [ERROR] default - El id ingresado no coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-10T21:58:43.788] [ERROR] default - El id ingresado no coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-10T21:58:55.717] [ERROR] default - El id ingresado no coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-10T21:59:13.927] [ERROR] default - El id ingresado (algo) no coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-10T21:59:25.286] [ERROR] default - El id ingresado ("algo") no coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-10T21:59:36.604] [ERROR] default - El id ingresado ("63be075b4d9f4dab33d0135") no coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-10T21:59:53.537] [ERROR] default - El id ingresado: ("63be075b4d9f4dab33d0135") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-10T22:33:49.191] [ERROR] default - ReferenceError: toAdd is not defined
+    at addProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:81:29)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:175:3)
+    at router (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:47:12)
+[2023-01-10T22:34:15.348] [ERROR] default - ReferenceError: toAdd is not defined
+    at addProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:83:54)
+[2023-01-10T22:34:34.776] [ERROR] default - ReferenceError: toAdd is not defined
+    at addProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:83:54)
+[2023-01-10T22:34:52.723] [ERROR] default - ReferenceError: toAdd is not defined
+    at addProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:83:54)
+[2023-01-10T22:35:34.157] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\response.js:278:15)
+    at addProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:83:25) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-01-10T22:41:23.112] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\response.js:278:15)
+    at addProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:78:25) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-01-10T22:41:43.107] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\response.js:278:15)
+    at addProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:80:25) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-01-10T22:50:22.808] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\response.js:174:12)
+    at addProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:73:37) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-01-10T22:50:50.952] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\response.js:174:12)
+    at addProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:74:37) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-01-10T22:55:54.800] [ERROR] default - CustomError {
+  codigo: 404,
+  descripcion: 'No se ha guardado nada',
+  mensaje: 'El producto existe en la Base de datos, intente con otro nombre'
+}
+[2023-01-10T22:58:51.950] [ERROR] default - CustomError {
+  status: 404,
+  description: 'No se ha guardado nada',
+  message: 'El producto existe en la Base de datos, intente con otro nombre'
+}
+[2023-01-10T23:03:00.154] [ERROR] default - No se ha guardado nada
+[2023-01-10T23:03:27.334] [ERROR] default - No se ha guardado nada El producto existe en la Base de datos, intente con otro nombre
+[2023-01-10T23:03:55.920] [ERROR] default - No se ha guardado nada. El producto existe en la Base de datos, intente con otro nombre
+[2023-01-10T23:05:22.072] [ERROR] default - El objeto teclado Razer no se ha guardado porque faltan datos del mismo
+[2023-01-11T00:42:46.290] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\response.js:278:15)
+    at updateProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:53:25) {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-01-11T00:44:17.187] [ERROR] default - El id ingresado: ("63be075b4d9f4dab33d0135") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-11T15:14:14.576] [ERROR] default - El id ingresado: ("63be18d1ff90e11604879ba") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-11T15:14:26.704] [ERROR] default - El objeto teclado Razer no se ha guardado porque faltan datos del mismo
+[2023-01-11T15:16:27.355] [ERROR] default - No se ha guardado nada. El producto existe en la Base de datos, intente con otro nombre
+[2023-01-11T15:35:35.915] [ERROR] default - El id ingresado: ("63befcf694888aff11d2dd4") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-11T15:42:09.292] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\response.js:174:12)
+    at updateProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:42:56)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:284:15 {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-01-11T15:43:47.136] [ERROR] default - Error [ERR_HTTP_HEADERS_SENT]: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\response.js:174:12)
+    at updateProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:42:56)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:284:15 {
+  code: 'ERR_HTTP_HEADERS_SENT'
+}
+[2023-01-11T15:49:26.852] [ERROR] default - TypeError: newObject.keys is not a function
+    at updateProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:46:23)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:284:15
+    at param (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:365:14)
+    at param (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:421:3)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:280:10)
+[2023-01-11T15:51:42.268] [ERROR] default - TypeError: newObject.keys is not a function
+    at updateProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:46:23)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:284:15
+    at param (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:365:14)
+    at param (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:421:3)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:280:10)
+[2023-01-11T17:09:44.522] [ERROR] default - Error: Ha ocurrido un error al obtener los datos del objeto solicitado con ID 63befcf694888aff11d2dd49
+    at updateProductByID (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/services/productos.service.js:27:15)
+    at updateProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:46:35)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:284:15
+    at param (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:365:14)
+    at param (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:421:3)
+[2023-01-11T17:12:29.987] [ERROR] default - El id ingresado: ("63befcf694888aff11d2dd4") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-11T17:13:19.834] [ERROR] default - El objeto Mouse Logitech G Series 203 no se ha guardado porque faltan datos del mismo
+[2023-01-11T17:13:24.709] [ERROR] default - No se ha guardado nada. El producto existe en la Base de datos, intente con otro nombre
+[2023-01-11T17:13:41.856] [ERROR] default - ReferenceError: deleteProdByID is not defined
+    at deleteProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:105:27)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:284:15
+    at param (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:365:14)
+    at param (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:421:3)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:280:10)
+[2023-01-11T17:41:50.859] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'id')
+    at getProductByID (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:22:30)
+    at deleteProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:105:28)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:284:15
+    at param (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:365:14)
+    at param (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:421:3)
+[2023-01-11T17:41:50.865] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'status')
+    at getProductByID (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:31:13)
+    at deleteProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:105:28)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:284:15
+    at param (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:365:14)
+    at param (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:421:3)
+[2023-01-11T17:43:30.705] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'params')
+    at getProductByID (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:22:24)
+    at deleteProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:105:28)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:284:15
+    at param (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:365:14)
+    at param (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:421:3)
+[2023-01-11T17:43:30.712] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'status')
+    at getProductByID (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:31:13)
+    at deleteProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:105:28)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:284:15
+    at param (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:365:14)
+    at param (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:421:3)
+[2023-01-11T17:53:06.529] [ERROR] default - Error al eliminar el objeto
+[2023-01-11T17:53:48.587] [ERROR] default - Error al eliminar el objeto
+[2023-01-11T17:54:16.795] [ERROR] default - Error al eliminar el objeto
+[2023-01-11T17:55:27.719] [ERROR] default - Error al eliminar el objeto
+[2023-01-11T17:57:05.191] [ERROR] default - El id ingresado: ("63be18d1ff90e11604879b") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-11T17:57:07.185] [ERROR] default - El id ingresado: ("63be18d1ff90e11604879ba") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-11T17:58:58.584] [ERROR] default - Error al eliminar el objeto
+[2023-01-11T17:59:15.274] [ERROR] default - Error al eliminar el objeto
+[2023-01-11T17:59:39.876] [ERROR] default - Error al eliminar el objeto
+[2023-01-11T18:05:28.161] [ERROR] default - Error al eliminar el objeto
+[2023-01-11T18:10:19.676] [ERROR] default - Error al eliminar el objeto
+[2023-01-11T18:13:39.561] [ERROR] default - Error al eliminar el objeto
+[2023-01-11T18:18:58.457] [ERROR] default - Error al eliminar el objeto
+[2023-01-11T18:19:43.129] [ERROR] default - Error al eliminar el objeto
+[2023-01-11T18:20:27.805] [ERROR] default - Error al eliminar el objeto
+[2023-01-11T18:20:40.861] [ERROR] default - Error al eliminar el objeto
+[2023-01-11T18:21:12.248] [ERROR] default - Error al eliminar el objeto
+[2023-01-12T16:06:59.910] [ERROR] default - ReferenceError: getDataID is not defined
+    at getCartByID (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/carritos.controllers.js:25:20)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\layer.js:95:5)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:284:15
+    at param (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:365:14)
+    at param (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:421:3)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\17-EntregaTEST\node_modules\express\lib\router\index.js:280:10)
+[2023-01-12T16:08:04.920] [ERROR] default - El id ingresado: ("Uf4D3Xaek6ZoyjNWbe3d") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-12T16:08:09.213] [ERROR] default - El id ingresado: ("Uf4D3Xaek6ZoyjNWbe3") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-12T16:08:11.580] [ERROR] default - El id ingresado: ("Uf4D3Xaek6ZoyjNWbe") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-12T16:27:48.444] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'id')
+    at addCart (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/carritos.controllers.js:44:42)
+[2023-01-13T15:42:17.676] [ERROR] default - No se ha guardado nada. El producto existe en la Base de datos, intente con otro nombre
+[2023-01-13T15:42:47.223] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'length')
+    at addProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:69:42)
+[2023-01-13T15:42:52.838] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'length')
+    at addProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:69:42)
+[2023-01-13T15:43:28.102] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'length')
+    at addProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:69:42)
+[2023-01-13T15:58:19.503] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'length')
+    at addProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:69:42)
+[2023-01-13T19:29:39.351] [ERROR] default - No se ha guardado nada. El producto existe en la Base de datos, intente con otro nombre
+[2023-01-13T19:45:02.059] [ERROR] default - El id ingresado: ("undefined") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-13T19:46:41.035] [ERROR] default - El id ingresado: ("undefined") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-13T19:49:31.611] [ERROR] default - El id ingresado: ("undefined") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-13T20:17:23.170] [ERROR] default - El id ingresado: ("undefined") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-13T20:21:28.985] [ERROR] default - No se ha guardado nada. El producto existe en la Base de datos, intente con otro nombre
+[2023-01-13T20:21:51.768] [ERROR] default - El id ingresado: ("undefined") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-14T13:27:18.866] [ERROR] default - El id ingresado: (":id") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-14T13:28:21.447] [ERROR] default - El id ingresado: (":id") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-14T13:39:10.580] [ERROR] default - El id ingresado: ("undefined") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-14T13:39:58.802] [ERROR] default - El id ingresado: ("undefined") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-14T13:42:05.223] [ERROR] default - El id ingresado: ("undefined") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-14T13:43:27.200] [ERROR] default - El id ingresado: ("undefined") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-14T14:17:06.954] [ERROR] default - El id ingresado: ("${idNewProduct}") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-14T14:52:02.769] [ERROR] default - No se ha guardado nada. El producto existe en la Base de datos, intente con otro nombre
+[2023-01-14T15:15:28.551] [ERROR] default - El id ingresado: ("63c2ec2ca8374dd725e676de") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-14T15:18:56.346] [ERROR] default - El id ingresado: ("63c2ec2ca8374dd725e676de") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-14T16:27:51.206] [ERROR] default - El id ingresado: ("63c301d61c5f4e7db1e295b3") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-14T16:28:26.411] [ERROR] default - El id ingresado: ("63c301d61c5f4e7db1e295b3") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-14T16:28:30.801] [ERROR] default - El id ingresado: ("63c301d61c5f4e7db1e295b") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-14T16:44:23.288] [ERROR] default - Error al eliminar el objeto
+[2023-01-14T17:06:02.839] [ERROR] default - Error al eliminar el objeto
+[2023-01-14T17:15:15.017] [ERROR] default - Error al eliminar el objeto
+[2023-01-14T17:15:21.258] [ERROR] default - Error al eliminar el objeto
+[2023-01-14T17:15:25.710] [ERROR] default - Error al eliminar el objeto
+[2023-01-14T17:15:43.265] [ERROR] default - Error al eliminar el objeto
+[2023-01-14T17:15:54.734] [ERROR] default - Error al eliminar el objeto
+[2023-01-14T17:16:42.351] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'delete')
+    at deleteProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:107:30)
+[2023-01-14T17:16:44.650] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'delete')
+    at deleteProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/17-EntregaTEST/src/controllers/productos.controllers.js:107:30)
+[2023-01-14T17:17:09.837] [ERROR] default - Error al eliminar el objeto
+[2023-01-14T17:17:33.101] [ERROR] default - Error al eliminar el objeto
+[2023-01-14T17:18:03.811] [ERROR] default - El id ingresado: ("63c30deba6e67d66e9814f0") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-14T17:18:07.363] [ERROR] default - El id ingresado: ("63c30deba6e67d66e9814f02") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-14T19:18:45.601] [ERROR] default - El id ingresado: ("s") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-16T20:34:07.902] [ERROR] default - 16/1/2023: Inconveniente en el servidor -> Error: listen EACCES: permission denied src/test/mochaTesting.test.js
+[2023-01-16T20:35:33.837] [ERROR] default - 16/1/2023: Inconveniente en el servidor -> Error: listen EACCES: permission denied src/test/mochaTesting.test.js
+[2023-01-16T20:36:09.791] [ERROR] default - 16/1/2023: Inconveniente en el servidor -> Error: listen EACCES: permission denied src/test/mochaTesting.test.js
+[2023-01-16T20:43:10.335] [ERROR] default - 16/1/2023: Inconveniente en el servidor -> Error: listen EACCES: permission denied src/test/mochaTesting.test.js
+[2023-01-16T20:46:05.851] [ERROR] default - 16/1/2023: Inconveniente en el servidor -> Error: listen EACCES: permission denied src/test/mochaTesting.test.js
+[2023-01-16T20:57:14.105] [ERROR] default - 16/1/2023: Inconveniente en el servidor -> Error: listen EACCES: permission denied src/test/mochaTesting.test.js
+[2023-01-16T20:59:28.044] [ERROR] default - 16/1/2023: Inconveniente en el servidor -> Error: listen EACCES: permission denied src/test/mochaTesting.test.js
+[2023-01-16T21:01:41.610] [ERROR] default - 16/1/2023: Inconveniente en el servidor -> Error: listen EACCES: permission denied src/test/mochaTesting.test.js
+[2023-01-16T21:04:50.036] [ERROR] default - 16/1/2023: Inconveniente en el servidor -> Error: listen EACCES: permission denied src/test/mochaTesting.test.js
+[2023-01-16T21:10:00.805] [ERROR] default - 16/1/2023: Inconveniente en el servidor -> Error: listen EACCES: permission denied src/test/mochaTesting.test.js
+[2023-01-16T21:10:59.287] [ERROR] default - 16/1/2023: Inconveniente en el servidor -> Error: listen EACCES: permission denied src/test/mochaTesting.test.js
+[2023-01-16T21:12:03.853] [ERROR] default - 16/1/2023: Inconveniente en el servidor -> Error: listen EACCES: permission denied src/test/mochaTesting.test.js
+[2023-01-16T21:15:55.979] [ERROR] default - 16/1/2023: Inconveniente en el servidor -> Error: listen EACCES: permission denied src/test/mochaTesting.test.js
+[2023-01-16T21:17:42.728] [ERROR] default - El id ingresado: ("63c30deba6e67d66e9814f03") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-16T21:19:20.073] [ERROR] default - 16/1/2023: Inconveniente en el servidor -> Error: listen EACCES: permission denied src/test/mochaTesting.test.js
+[2023-01-16T21:20:56.268] [ERROR] default - 16/1/2023: Inconveniente en el servidor -> Error: listen EACCES: permission denied src/test/mochaTesting.test.js
+[2023-01-16T21:25:24.250] [ERROR] default - 16/1/2023: Inconveniente en el servidor -> Error: listen EACCES: permission denied src/test/mochaTesting.test.js
+[2023-01-19T19:40:32.873] [ERROR] default - El id ingresado: ("Ana") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-19T19:42:14.358] [ERROR] default - El id ingresado: ("Ana") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-19T19:42:22.207] [ERROR] default - El id ingresado: ("Ana") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-19T19:43:36.418] [ERROR] default - El id ingresado: ("Ana") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-19T19:44:12.042] [ERROR] default - El id ingresado: ("Ana") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-19T19:45:54.646] [ERROR] default - El id ingresado: ("Ana") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-19T19:45:56.037] [ERROR] default - El id ingresado: ("Ana") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-19T20:48:01.416] [ERROR] default - TypeError: Cannot read properties of undefined (reading 'map')
+    at getMainInfo (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/18-EntregaGraphQL/src/controllers/initial.controllers.js:78:38)
+[2023-01-24T17:01:38.000] [ERROR] default - El id ingresado: ("637ff373b6970d88452dbd0") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-24T17:02:04.362] [ERROR] default - El id ingresado: ("637ff373b6970d88452dbd0") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-24T17:03:23.271] [ERROR] default - El id ingresado: ("637ff373b6970d88452dbd0") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-24T17:07:18.460] [ERROR] default - El id ingresado: ("637ff373b6970d88452dbd0") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-24T17:10:16.343] [ERROR] default - El id ingresado: ("637ff373b6970d88452dbd0") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-24T17:26:07.468] [ERROR] default - El carrito no se pudo crear, intente nuevamente
+[2023-01-24T17:28:21.556] [ERROR] default - TypeError: req.params is not a function
+    at addCart (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/19-EntregaFramework/src/controllers/carritos.controllers.js:40:25)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\express\lib\router\layer.js:95:5)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\express\lib\router\layer.js:95:5)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\express\lib\router\index.js:346:12)
+    at next (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\express\lib\router\index.js:175:3)
+    at router (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\express\lib\router\index.js:47:12)
+[2023-01-24T17:28:51.248] [ERROR] default - El carrito no se pudo crear, intente nuevamente
+[2023-01-24T17:30:54.261] [ERROR] default - El carrito no se pudo crear, intente nuevamente
+[2023-01-24T17:45:27.045] [ERROR] default - ReferenceError: username is not defined
+    at registerCredentials (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/19-EntregaFramework/src/controllers/initial.controllers.js:138:55)
+[2023-01-24T17:46:26.599] [ERROR] default - ReferenceError: username is not defined
+    at registerCredentials (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/19-EntregaFramework/src/controllers/initial.controllers.js:137:55)
+[2023-01-25T15:00:10.574] [ERROR] default - El id ingresado: ("63be18d1ff90e11604879ba") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-25T15:15:49.662] [ERROR] default - El id ingresado: ("63bf285714e7ab7d537708d") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-25T15:15:56.056] [ERROR] default - El id ingresado: ("63bf285714e7ab7d537708d") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-25T15:16:09.780] [ERROR] default - El id ingresado: ("63bf285714e7ab7d537708d2") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-25T15:22:11.466] [ERROR] default - El id ingresado: ("63bf285714e7ab7d537708d2") -> No coincide con ningun dato existente, revise los parametros de entrada
+[2023-01-25T15:25:46.057] [ERROR] default - TypeError: Cannot destructure property 'product' of 'req.body' as it is undefined.
+    at addProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/19-EntregaFramework/src/controllers/productos.controllers.js:89:15)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-router\lib\router.js:425:16
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-router\lib\router.js:430:31)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-router\lib\router.js:399:32)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-body\lib\index.js:115:16
+[2023-01-25T17:09:17.508] [ERROR] default - TypeError: Cannot destructure property 'product' of 'req.body' as it is undefined.
+    at addProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/19-EntregaFramework/src/controllers/productos.controllers.js:89:15)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-router\lib\router.js:425:16
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-router\lib\router.js:430:31)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-router\lib\router.js:399:32)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-body\lib\index.js:115:16
+[2023-01-25T17:11:34.063] [ERROR] default - El objeto Monitor Samsung 24p no se ha guardado porque faltan datos del mismo
+[2023-01-25T17:11:54.205] [ERROR] default - No se ha guardado nada. El producto existe en la Base de datos, intente con otro nombre
+[2023-01-25T17:12:18.575] [ERROR] default - No se ha guardado nada. El producto existe en la Base de datos, intente con otro nombre
+[2023-01-25T17:17:29.042] [ERROR] default - No se ha guardado nada. El producto existe en la Base de datos, intente con otro nombre
+[2023-01-25T17:20:28.372] [ERROR] default - ReferenceError: ctx is not defined
+    at deleteProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/19-EntregaFramework/src/controllers/productos.controllers.js:151:20)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-router\lib\router.js:425:16
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-router\lib\router.js:430:31)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-router\lib\router.js:399:32)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-body\lib\index.js:115:16
+[2023-01-25T17:21:29.150] [ERROR] default - ReferenceError: ctx is not defined
+    at deleteProduct (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/19-EntregaFramework/src/controllers/productos.controllers.js:151:20)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-router\lib\router.js:425:16
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-router\lib\router.js:430:31)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-router\lib\router.js:399:32)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-body\lib\index.js:115:16
+[2023-01-25T17:21:39.803] [ERROR] default - Error al eliminar el objeto
+[2023-01-25T17:21:43.257] [ERROR] default - Error al eliminar el objeto
+[2023-01-25T17:22:01.477] [ERROR] default - Error al eliminar el objeto
+[2023-01-25T17:50:58.356] [ERROR] default - El usuario santi no se ha guardado porque faltan datos del mismo
+[2023-01-25T17:51:47.972] [ERROR] default - El usuario santi no se ha guardado porque faltan datos del mismo
+[2023-01-25T17:56:26.682] [ERROR] default - El usuario santi no se ha guardado porque faltan datos del mismo
+[2023-01-25T18:00:24.795] [ERROR] default - El usuario santi no se ha guardado porque faltan datos del mismo
+[2023-01-25T18:00:34.741] [ERROR] default - El usuario santi no se ha guardado porque faltan datos del mismo
+[2023-01-25T18:00:45.767] [ERROR] default - El usuario santi no se ha guardado porque faltan datos del mismo
+[2023-01-25T18:00:54.765] [ERROR] default - El usuario santi no se ha guardado porque faltan datos del mismo
+[2023-01-25T18:01:04.246] [ERROR] default - El usuario santi no se ha guardado porque faltan datos del mismo
+[2023-01-25T18:01:18.641] [ERROR] default - El usuario santi no se ha guardado porque faltan datos del mismo
+[2023-01-25T18:01:27.911] [ERROR] default - El usuario santi no se ha guardado porque faltan datos del mismo
+[2023-01-25T18:01:38.180] [ERROR] default - El usuario santi no se ha guardado porque faltan datos del mismo
+[2023-01-25T18:02:28.302] [ERROR] default - No se ha guardado nada. El usuario existe en la Base de datos, intente con otro nombre
+[2023-01-25T18:02:42.180] [ERROR] default - No se ha guardado nada. El usuario existe en la Base de datos, intente con otro nombre
+[2023-01-25T18:04:57.516] [ERROR] default - No se ha guardado nada. El usuario existe en la Base de datos, intente con otro nombre
+[2023-01-25T18:05:57.298] [ERROR] default - Error al eliminar el usuario
+[2023-01-25T18:07:45.792] [ERROR] default - El usuario Ana no se ha guardado porque faltan datos del mismo
+[2023-01-26T15:47:34.909] [ERROR] default - El usuario undefined no se ha guardado porque faltan datos del mismo
+[2023-01-26T15:49:09.471] [ERROR] default - El mensaje no se ha guardado porque faltan datos del mismo
+[2023-01-26T15:53:27.949] [ERROR] default - ReferenceError: data is not defined
+    at addMessage (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/19-EntregaFramework/src/controllers/mensajes.controllers.js:115:23)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-router\lib\router.js:425:16
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-router\lib\router.js:430:31)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-router\lib\router.js:399:32)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-router\lib\router.js:399:32)
+[2023-01-26T16:41:02.377] [ERROR] default - Error: Error jajjaja
+    at addMessage (file:///F:/Facultad/Cursos/Desarrollo%20Web%20Full%20Stack%20-%20CoderHouse/cursoBackend/19-EntregaFramework/src/controllers/mensajes.controllers.js:93:15)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-router\lib\router.js:425:16
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:34:12
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-router\lib\router.js:430:31)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-router\lib\router.js:399:32)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-compose\index.js:42:32)
+    at dispatch (F:\Facultad\Cursos\Desarrollo Web Full Stack - CoderHouse\cursoBackend\19-EntregaFramework\node_modules\koa-router\lib\router.js:399:32)
